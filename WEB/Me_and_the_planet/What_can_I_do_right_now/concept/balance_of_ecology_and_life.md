@@ -75,4 +75,4 @@
 
 - [10 простых эко-привычек](10_simple_eco_friendly_habits.md)
 - [Как вдохновить друзей и семью](how_to_inspire_friends_family.md)
-- [Личная ответственность перед планетой](my_personal_eco_plane.md)
+- [Мой личный экоплан](my_personal_eco_plane.md)
