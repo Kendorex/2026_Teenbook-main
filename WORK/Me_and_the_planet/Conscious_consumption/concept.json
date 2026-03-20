@@ -1,30 +1,20 @@
 {
-  "section": "Я и планета",
-  "subsection": "Осознанное потребление",
   "concepts": [
     {
-      "id": "nuzhna_li_eshche_odna_futbolka",
-      "title": "Нужна ли мне еще одна футболка",
-      "wikidata_id": "Q477335",
-      "wikidata_label": "sustainable consumption"
+      "name": "Нужна ли мне еще одна футболка",
+      "file": "nuzhna_li_eshche_odna_futbolka.md"
     },
     {
-      "id": "fast_fashion_problema",
-      "title": "Fast fashion — почему это проблема",
-      "wikidata_id": "Q2425590",
-      "wikidata_label": "fast fashion"
+      "name": "Fast fashion — почему это проблема",
+      "file": "fast_fashion_problema.md"
     },
     {
-      "id": "remont_vmesto_vybrosa",
-      "title": "Ремонт вместо выброса",
-      "wikidata_id": "Q108837947",
-      "wikidata_label": "right to repair"
+      "name": "Ремонт вместо выброса",
+      "file": "remont_vmesto_vybrosa.md"
     },
     {
-      "id": "sekond_khendy_i_svopy",
-      "title": "Секонд-хенды и свопы: модно и экологично",
-      "wikidata_id": "Q5135580",
-      "wikidata_label": "clothing swap"
+      "name": "Секонд-хенды и свопы: модно и экологично",
+      "file": "sekond_khendy_i_svopy.md"
     }
   ]
 }
