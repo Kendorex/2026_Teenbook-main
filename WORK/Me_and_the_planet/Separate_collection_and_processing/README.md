@@ -118,7 +118,7 @@
 
 ### Запрос 1: Получение описаний сущностей
 
-```
+```sparql
 SELECT ?item ?itemLabel ?description WHERE {
   VALUES ?item {
     wd:Q132580
@@ -148,7 +148,7 @@ SELECT ?item ?itemLabel ?description WHERE {
 
 ### Запрос 2: Поиск связей между сущностями
 
-```
+```sparql
 SELECT DISTINCT ?source ?sourceLabel ?property ?propertyLabel ?target ?targetLabel WHERE {
   VALUES ?source {
     wd:Q931389
