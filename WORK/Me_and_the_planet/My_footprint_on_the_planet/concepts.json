@@ -1,30 +1,20 @@
 {
-  "section": "Я и планета",
-  "subsection": "Мой след на планете",
   "concepts": [
     {
-      "id": "kuda_devatsya_musor",
-      "title": "Куда девается мусор из моего ведра",
-      "wikidata_id": "Q2684232",
-      "wikidata_label": "waste disposal"
+      "name": "Куда девается мусор из моего ведра",
+      "file": "kuda_devatsya_musor.md"
     },
     {
-      "id": "skolko_plastika",
-      "title": "Сколько пластика я использую за день",
-      "wikidata_id": "Q11474",
-      "wikidata_label": "plastic"
+      "name": "Сколько пластика я использую за день",
+      "file": "skolko_plastika.md"
     },
     {
-      "id": "uglerodny_sled",
-      "title": "Что такое углеродный след",
-      "wikidata_id": "Q310667",
-      "wikidata_label": "carbon footprint"
+      "name": "Что такое углеродный след",
+      "file": "uglerodny_sled.md"
     },
     {
-      "id": "lichnaya_otvetstvennost",
-      "title": "Личная ответственность перед планетой",
-      "wikidata_id": "Q832237",
-      "wikidata_label": "environmental protection"
+      "name": "Личная ответственность перед планетой",
+      "file": "lichnaya_otvetstvennost.md"
     }
   ]
 }
