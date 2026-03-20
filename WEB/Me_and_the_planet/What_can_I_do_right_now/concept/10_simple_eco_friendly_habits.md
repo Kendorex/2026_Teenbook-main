@@ -60,4 +60,4 @@
 
 - [Как вдохновить друзей и семью](how_to_inspire_friends_family.md)
 - [Баланс экологии и жизни](balance_of_ecology_and_life.md)
-- [Личная ответственность перед планетой](my_personal_eco_plane.md)
+- [Мой личный экоплан](my_personal_eco_plane.md)
