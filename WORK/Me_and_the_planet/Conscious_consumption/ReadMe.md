@@ -141,7 +141,7 @@ SELECT ?item ?itemLabel ?description WHERE {
 ```
 Результат выполнения запроса сохранён в файле: data/wikidata_export.json
 
-##Запрос 2: Поиск связей между сущностями
+## Запрос 2: Поиск связей между сущностями
 
 ```sparql
 SELECT DISTINCT ?source ?sourceLabel ?property ?propertyLabel ?target ?targetLabel WHERE {
@@ -179,7 +179,8 @@ SELECT DISTINCT ?source ?sourceLabel ?property ?propertyLabel ?target ?targetLab
     bd:serviceParam wikibase:language "ru,en"
   }
 }
-LIMIT 300```
+LIMIT 300
+```
 
 Данный запрос позволяет найти прямые связи между выбранными сущностями в базе знаний Wikidata.
 
