@@ -60,4 +60,4 @@
 
 - [10 простых эко-привычек](10_simple_eco_friendly_habits.md)
 - [Баланс экологии и жизни](balance_of_ecology_and_life.md)
-- [Личная ответственность перед планетой](my_personal_eco_plane.md)
+- [Мой личный экоплан](my_personal_eco_plane.md)
