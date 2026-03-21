@@ -1,6 +1,6 @@
 {
   "query_name": "naturaldisasters",
-  "timestamp": "2026-03-20T23:53:59.981052",
+  "timestamp": "2026-03-21T00:17:54.274700",
   "endpoint": "https://query.wikidata.org/sparql",
   "results_count": 2,
   "results": {

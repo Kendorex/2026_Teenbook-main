@@ -1,6 +1,6 @@
 {
   "query_name": "futuredisasters",
-  "timestamp": "2026-03-20T23:54:00.537714",
+  "timestamp": "2026-03-21T00:17:54.509527",
   "endpoint": "https://query.wikidata.org/sparql",
   "results_count": 3,
   "results": {
