@@ -22,7 +22,7 @@ def build_graph(data):
     return G
 
 def draw_graph(G, output_path):
-    plt.figure(figsize=(18, 14))
+    plt.figure(figsize=(20, 12))
 
     pos = nx.spring_layout(G, k=1.5, iterations=100, seed=42)
 
@@ -31,7 +31,7 @@ def draw_graph(G, output_path):
         pos,
         with_labels=True,
         node_size=4000,
-        node_color="lightblue",
+        node_color="blue",
         font_size=9,
         font_weight="bold",
         arrows=True,

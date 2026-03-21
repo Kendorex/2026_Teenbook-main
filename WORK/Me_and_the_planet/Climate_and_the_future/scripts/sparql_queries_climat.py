@@ -17,6 +17,7 @@ SELECT DISTINCT ?source ?sourceLabel ?property ?propertyLabel ?target ?targetLab
     wd:Q157943      # Метановые выбросы: "спящая бомба" Арктики
     wd:Q5134242     # Климатические беженцы
     wd:Q164206      # Геоинженерия: риски
+    wd:Q8074        # Роль человека в климате
   }
 
   VALUES ?directProp {

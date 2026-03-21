@@ -67,6 +67,19 @@ SELECT DISTINCT ?item ?itemLabel ?description WHERE {
 LIMIT 30
 """
 
+# Запрос 5: Рольчелоека во всем этом
+QUERY_ROLEOFHUMANS = """
+SELECT DISTINCT ?item ?itemLabel ?description WHERE {
+  VALUES ?item { wd:Q8074 }
+  OPTIONAL { ?item schema:description ?description . 
+             FILTER(LANG(?description) = "ru") }
+  SERVICE wikibase:label { 
+    bd:serviceParam wikibase:language "ru,en" . 
+  }
+}
+LIMIT 30
+"""
+
 
 def run_sparql_query(query, query_name="unnamed"):
     """Выполняет SPARQL-запрос и возвращает результаты"""
@@ -116,6 +129,7 @@ if __name__ == "__main__":
         (QUERY_NATURALDISASTERS, "naturaldisasters"),
         (QUERY_FUTURENATURAL, "futuredisasters"),
         (QUERY_STOPNEWDISASTERS, "stopnewdisasters"),
+        (QUERY_ROLEOFHUMANS, "roleofhumans"),
     ]
 
     for query, name in queries:
